@@ -7,11 +7,16 @@ This repository contains custom marketplace files for LobeChat, featuring real e
 ```
 Lib/
 ├── agents/
-│   ├── index.en-US.json           # List of all assistants
+│   ├── index.en-US.json              # List of all assistants
+│   ├── discover-home.en-US.json      # Home page featured assistants
 │   ├── realtor-assistant.en-US.json  # Realtor Assistant definition
-│   └── finance-expert.en-US.json  # Finance Expert definition
+│   └── finance-expert.en-US.json     # Finance Expert definition
 ├── plugins/
-│   └── index.en-US.json           # List of all plugins
+│   └── index.en-US.json              # List of all plugins
+├── models/
+│   └── index.en-US.json              # List of all models
+└── providers/
+    └── index.en-US.json              # List of all providers
 ```
 
 ## Setup Instructions
@@ -24,6 +29,8 @@ Lib/
 ```
 AGENTS_INDEX_URL=https://raw.githubusercontent.com/Nickhug/Lib/main/agents
 PLUGINS_INDEX_URL=https://raw.githubusercontent.com/Nickhug/Lib/main/plugins
+MODELS_INDEX_URL=https://raw.githubusercontent.com/Nickhug/Lib/main/models
+PROVIDER_INDEX_URL=https://raw.githubusercontent.com/Nickhug/Lib/main/providers
 ```
 
 ## Available Assistants

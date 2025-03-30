@@ -1,0 +1,55 @@
+{
+  "models": [
+    {
+      "id": "gpt-4",
+      "name": "GPT-4",
+      "description": "GPT-4 is OpenAI's most advanced model, optimized for both chat and text completions.",
+      "provider": "openai",
+      "providerIcon": "https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/openai.webp",
+      "contextSize": 8192,
+      "pricing": {
+        "input": 0.03,
+        "output": 0.06
+      },
+      "features": {
+        "tools": true,
+        "vision": false,
+        "json": true
+      }
+    },
+    {
+      "id": "gpt-4-vision-preview",
+      "name": "GPT-4 Vision",
+      "description": "GPT-4 with the ability to understand images, in addition to all other GPT-4 capabilities.",
+      "provider": "openai",
+      "providerIcon": "https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/openai.webp",
+      "contextSize": 128000,
+      "pricing": {
+        "input": 0.01,
+        "output": 0.03
+      },
+      "features": {
+        "tools": true,
+        "vision": true,
+        "json": true
+      }
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "description": "A good balance between capability and speed for various tasks.",
+      "provider": "openai",
+      "providerIcon": "https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/openai.webp",
+      "contextSize": 16385,
+      "pricing": {
+        "input": 0.0015,
+        "output": 0.002
+      },
+      "features": {
+        "tools": true,
+        "vision": false,
+        "json": true
+      }
+    }
+  ]
+}

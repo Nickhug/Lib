@@ -1,0 +1,30 @@
+{
+  "agents": [
+    {
+      "author": "Nickhug",
+      "avatar": "/logo.png",
+      "homepage": "https://github.com/Nickhug/Lib",
+      "identifier": "realtor-assistant",
+      "meta": {
+        "avatar": "/logo.png",
+        "title": "Realtor Assistant",
+        "description": "Your AI-powered real estate assistant for property analysis and suggestions.",
+        "tags": ["real-estate", "property-analysis", "realtor"],
+        "category": "business"
+      }
+    },
+    {
+      "author": "Nickhug",
+      "avatar": "/images/assistants/finance-expert.png",
+      "homepage": "https://github.com/Nickhug/Lib",
+      "identifier": "finance-expert",
+      "meta": {
+        "avatar": "/images/assistants/finance-expert.png",
+        "title": "Finance Expert",
+        "description": "Professional financial analyst providing investment and management advice",
+        "tags": ["finance", "investment", "money-management"],
+        "category": "business"
+      }
+    }
+  ]
+}

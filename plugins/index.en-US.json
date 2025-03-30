@@ -1,0 +1,38 @@
+{
+  "plugins": [
+    {
+      "author": "Nickhug",
+      "avatar": "/logo.png",
+      "createdAt": "2023-08-17T12:04:30.290Z",
+      "homepage": "https://github.com/Nickhug/Lib",
+      "identifier": "realestate-lookup",
+      "meta": {
+        "avatar": "/logo.png",
+        "title": "Real Estate Lookup",
+        "description": "Search for real estate properties, market data, and trends",
+        "tags": ["real-estate", "property-search"],
+        "example": "Search for residential properties in Austin, TX under $500,000"
+      },
+      "manifest": "https://chat-plugins.lobehub.com/plugins/search-engine/manifest.json",
+      "schemaVersion": 1,
+      "type": "default"
+    },
+    {
+      "author": "Nickhug",
+      "avatar": "https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/logo-3d.webp",
+      "createdAt": "2023-08-15T12:01:13.860Z",
+      "homepage": "https://github.com/Nickhug/Lib",
+      "identifier": "web-crawler",
+      "meta": {
+        "avatar": "https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/logo-3d.webp",
+        "title": "Web Crawler",
+        "description": "Access web content with URL, supporting article extraction and plain HTML",
+        "tags": ["web", "browser", "internet"],
+        "example": "Help me analyze the content at https://example.com"
+      },
+      "manifest": "https://chat-plugins.lobehub.com/plugins/web-crawler/manifest.json",
+      "schemaVersion": 1,
+      "type": "default"
+    }
+  ]
+}
